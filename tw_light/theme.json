@@ -28,7 +28,7 @@
     "FatalHighlight": "#ff5252",
     "Fatal": "#ffDDDD"
   },
-  "name": "mytheme",
+  "name": "tw-light",
   "qssFilePath": "themeStyle.css",
   "widgets": "Fusion"
 }

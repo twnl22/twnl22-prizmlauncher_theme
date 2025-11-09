@@ -29,7 +29,7 @@
     "Trace": "#b39ddb",
     "Fatal": "#ffffff"
   },
-  "name": "mytheme-dark",
+  "name": "tw-dark",
   "qssFilePath": "themeStyle.css",
   "widgets": "Fusion"
 }
