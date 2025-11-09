@@ -1,0 +1,161 @@
+/*
+background: fdfdfd
+box: f5f5f5
+box-hover: eeeeee
+box-active: e5e5e5
+box-focus: e5e5e5
+box-disabled: e2e2e2
+border: c7c7c7
+color: 222222
+*/
+
+QMainWindow,
+QDockWidget,
+QWidget,
+QDialog,
+QWizard *,
+QCalendarWidget *,
+#qswPages > QObject,
+QMenu {
+  background-color: #fdfdfd;
+  color: #222222;
+}
+
+QToolBar,
+QToolBar *,
+QStatusBar,
+QStatusBar * {
+  background-color: #f5f5f5;
+}
+
+QToolBar {
+  border: none;
+}
+
+QToolBar::separator {
+  background: #e5e5e5;
+  width: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+QToolButton:hover {
+  background-color: #eeeeee;
+  border: none;
+}
+
+QPushButton {
+  border: none;
+  padding: 4px 5px;
+  min-width: 70px;
+  background-color: #f5f5f5;
+}
+
+QPushButton:hover {
+  border: none;
+  background-color: #eeeeee;
+}
+
+QLineEdit,
+QTextEdit,
+QSpinBox,
+QDoubleSpinBox,
+QDateTimeEdit,
+QComboBox,
+QGroupBox,
+QTabBar {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+QGroupBox {
+  margin-top: 23px;
+}
+
+QFrame {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+QTabBar::tab {
+  background-color: #e5e5e5;
+  padding: 8px 10px;
+}
+
+QTabBar::tab:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+QTabBar::tab:last-child {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+QTabBar::tab:!selected {
+  background-color: #f5f5f5;
+}
+
+QTabWidget::pane {
+  border: none;
+  padding: 0;
+}
+
+QLineEdit,
+QTextEdit,
+QPlainTextEdit,
+QSpinBox,
+QDoubleSpinBox,
+QDateTimeEdit,
+QComboBox {
+  background-color: #f5f5f5;
+  padding: 4px 5px;
+}
+
+QLineEdit:hover,
+QTextEdit:hover,
+QPlainTextEdit:hover,
+QSpinBox:hover,
+QDoubleSpinBox:hover,
+QDateTimeEdit:hover,
+QComboBox:hover {
+  background-color: #eeeeee;
+}
+
+QTextEdit:focus,
+QPlainTextEdit:focus,
+QSpinBox:focus,
+QDoubleSpinBox:focus,
+QDateTimeEdit:focus,
+QComboBox:focus {
+  background-color: #e5e5e5;
+  padding: 4px 5px;
+}
+
+QSpinBox::up-button,
+QDoubleSpinBox::up-button,
+QSpinBox::down-button,
+QDoubleSpinBox::down-button {
+    width: 0;
+}
+
+QComboBox::drop-down {
+    background-color: transparent; 
+    border: none;
+    width: 20px;
+}
+QComboBox::down-arrow {
+    image: url(theme:arrow.svg);
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+}
+
+QListView::item:selected {
+    border:none;
+    background-color: #e5e5e5;
+}
+
+QListView::item:hover {
+    background-color: #eeeeee;
+}

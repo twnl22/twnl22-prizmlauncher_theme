@@ -1,0 +1,35 @@
+{
+  "colors": {
+    "Base": "#0e0e0e",
+    "AlternateBase": "#0e0e0e",
+    "Window": "#0e0e0e",
+    "ToolTipBase": "#191919",
+    "fadeColor": "#0e0e0e",
+
+    "Text": "#d4d4d4",
+    "WindowText": "#d4d4d4",
+    "ToolTipText": "#d4d4d4",
+    "BrightText": "#ffffff",
+    "ButtonText": "#d4d4d4",
+
+    "Button": "#191919",
+
+    "Highlight": "#222222",
+    "HighlightedText": "#ffffff",
+    "Link": "#3366ff",
+
+    "fadeAmount": 0
+  },
+  "logColors": {
+    "Launcher": "#d4d4d4",
+    "Error": "#ff6b6b",
+    "Warning": "#ffb74d",
+    "Debug": "#64b5f6",
+    "Info": "#9ccc65",
+    "Trace": "#b39ddb",
+    "Fatal": "#ffffff"
+  },
+  "name": "mytheme-dark",
+  "qssFilePath": "themeStyle.css",
+  "widgets": "Fusion"
+}

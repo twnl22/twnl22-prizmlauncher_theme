@@ -1,0 +1,34 @@
+{
+  "colors": {
+    "Base": "#fdfdfd",
+    "AlternateBase": "#fdfdfd",
+    "Window": "#fdfdfd",
+    "ToolTipBase": "#fdfdfd",
+    "fadeColor": "#fdfdfd",
+
+    "Text": "#222222",
+    "WindowText": "#222222",
+    "ToolTipText": "#222222",
+    "BrightText": "#111111",
+    "ButtonText": "#222222",
+
+    "Button": "#fdfdfd",
+
+    "Highlight": "#cdd6f4",
+    "HighlightedText": "#1a1a1a",
+    "Link": "#3366ff",
+
+    "fadeAmount": 0
+  },
+  "logColors": {
+    "Launcher": "#444444",
+    "Error": "#d32f2f",
+    "Warning": "#ed6c02",
+    "Debug": "#1976d2",
+    "FatalHighlight": "#ff5252",
+    "Fatal": "#ffDDDD"
+  },
+  "name": "mytheme",
+  "qssFilePath": "themeStyle.css",
+  "widgets": "Fusion"
+}
